@@ -54,17 +54,6 @@ Agu3l = new Ext.Application({
 	           </div>"
 	});
 
-	var manufacture = new Ext.Panel({
-	    title: 'Manufacture',
-	    iconCls: 'settings',
-	    scroll: 'vertical',
-	    html: "<div class='presentation'>\
-		    		<img id='logo' src='img/manufacture.png' />\
-		            <p class='titrePres'>Présentation</p>\
-		            <p class='titreJob'>Texte</p>\
-		            <p><a href='http://manufacture-du-web.fr/'>Visiter le site de la manufacture</a></p>\
-	           </div>"
-	});
 
 	var agenda = new Ext.Panel({
 	    title: 'Agenda',
@@ -268,7 +257,7 @@ Agu3l = new Ext.Application({
 	    cardSwitchAnimation: {
 	        type: 'slide'
 	    },
-	    items: [presentation,linux,logiciels,manufacture,agenda,contact]
+	    items: [presentation,linux,logiciels,agenda,contact]
 	});
 	
 	var tabpan = new Ext.TabPanel({
@@ -292,7 +281,6 @@ Agu3l = new Ext.Application({
 	        },
 	        linux,
 	        logiciels,
-	        manufacture,
 	        agenda,
 	        contact
 	           ]
@@ -314,7 +302,7 @@ Agu3l = new Ext.Application({
 	        type: 'slide'
 	    },
 	    dockedItems: [header],
-	    items: [presentation,linux,logiciels,manufacture,agenda,contact]
+	    items: [presentation,linux,logiciels,agenda,contact]
 	});
 
 	}
