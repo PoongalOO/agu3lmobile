@@ -50,7 +50,7 @@ Agu3l = new Ext.Application({
 		            <br />\
 		            La Licence publique générale de GNU (en anglais General Public License) est souvent appelée de l'acronyme « GNU GPL » ou « GPL de GNU ». C'est la licence de la plupart des programmes GNU et de plus de la moitié de l'ensemble des logiciels libres actuellement distribués. La dernière version est la version 3.<br />\
 		            <a href='http://www.gnu.org/licenses/gpl.html'>Lire la licence originale en ligne</a></p>\
-		            <a href='http://fsffrance.org/gpl/gpl-fr.fr.html'>Lire la licence originale traduite en franÃ§ais en ligne</a></p>\
+		            <a href='http://fsffrance.org/gpl/gpl-fr.fr.html'>Lire la licence originale traduite en français en ligne</a></p>\
 	           </div>"
 	});
 
