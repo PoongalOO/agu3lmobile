@@ -1,0 +1,144 @@
+/*
+	GENERAL
+*/
+
+.NewIcon {
+	-webkit-mask-box-image: url('img/face.png');
+}
+
+#titreGauche{
+	float:left;
+	margin-top:5px;
+	color:white;
+	font-weight:bold;
+}
+
+#titreDroite{
+	float:right;
+	margin-top:5px;
+	color:white;
+	font-weight:bold;
+	font-style: italic
+}
+
+#barreTop {
+	background: url(img/top-shadow.png) repeat-x;
+	margin-top: 1px; 
+	height:10px;
+}
+
+#header, .presentation {
+	margin:3%;
+}
+
+#logo {
+	font-family: Impact, Impact5, Charcoal6, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	float: left;
+	/*height:85px;*/
+	overflow: hidden;
+	line-height: 0px;
+}
+
+#infos {
+	margin-left: 25px;
+	display: inline-block;
+}
+
+#tagline {
+	font: italic 18px Georgia, serif;
+	line-height: 30px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+#fullname {
+	margin-top: 0px;
+}
+
+#bio {
+	font-size: 14px;
+	line-height: 18px;
+	font-style: italic;
+	font-family: Georgia,serif;
+	color: #777;
+	-webkit-font-smoothing: antialiased;
+	margin-top: 0px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: -moz-linear-gradient(left center, transparent, grey, transparent);
+    background: -webkit-gradient(linear, left center, right center,
+                                 color-stop(0, transparent),
+                                 color-stop(0.5, grey),
+                                 color-stop(1, transparent));
+}
+
+/* 
+	Logo du cover 
+*/
+
+#logoHeader
+{
+	;
+	margin-left:5px;
+	margin-top:3px;
+	float:left;
+}	
+
+.tabPanel p, .tabPanel h1, .tabPanel h2, .tabPanel h3, .tabPanel ul
+{
+	padding-left:10px;
+	padding-right:10px;
+	text-align:justify;
+}
+
+.tabPanel h1, .tabPanel h2, .tabPanel h3, .tabPanel h4
+{
+	padding-top:10px;
+}
+
+p {
+	font-size:14px;	
+	text-align:left;
+}
+
+.btnSend {
+	margin-top: 25px;
+}
+
+
+
+/*
+	CV
+*/
+
+.titrePres {
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.titreJob {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.dateJob {
+	font-style: italic;
+	font-size: 12px;
+}
+
+.listePres {
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.listePres li {
+	list-style: circle;
+	margin-left: 15px;
+}
